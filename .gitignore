@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# PyInstaller / Build
+build/
+*.manifest
+*.spec.bak
+
+# Grosses archives & binaires compilés (à distribuer via GitHub Releases)
+dist/*.exe
+dist/*.zip
+
+# Fichiers temporaires & journaux sensibles
+server/licenses_issued.jsonl
+*.log
+.env
+
+# VS Code / IDE
+.vscode/
+.idea/
+

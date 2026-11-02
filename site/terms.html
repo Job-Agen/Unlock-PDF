@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#030e22">
+  <meta name="description" content="Conditions Générales d'Utilisation et de Vente (CGU/CGV) & Politique de Remboursement — PDF Unlocker Desktop Windows.">
+  <title>Conditions Générales & Remboursement — PDF Unlocker Desktop</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #030e23;
+      --bg-card: rgba(8, 26, 56, 0.78);
+      --card-border: rgba(38, 83, 148, 0.5);
+      --primary-blue: #0078f2;
+      --cyan-glow: #00d2ff;
+      --emerald-green: #10d68a;
+      --amber-warn: #f59e0b;
+      --coral-err: #ef4444;
+      --text-white: #ffffff;
+      --text-muted: #b0c9ec;
+      --text-dim: #7390b8;
+      --radius-md: 14px;
+      --radius-lg: 18px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-white);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      line-height: 1.65;
+      min-height: 100vh;
+      background-image: 
+        radial-gradient(circle at 15% 10%, rgba(0, 120, 245, 0.15) 0%, transparent 45%),
+        radial-gradient(circle at 85% 20%, rgba(0, 210, 255, 0.1) 0%, transparent 40%),
+        linear-gradient(180deg, #030e23 0%, #06152e 100%);
+      background-attachment: fixed;
+    }
+
+    a { color: #0099ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { width: min(920px, calc(100% - 48px)); margin: auto; }
+
+    /* HEADER */
+    header {
+      height: 76px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(3, 14, 35, 0.88);
+      border-bottom: 1px solid rgba(40, 85, 150, 0.35);
+      backdrop-filter: blur(16px);
+    }
+    .header-nav {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 19px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .brand:hover { text-decoration: none; }
+    .brand-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #0099ff, #0062e0);
+      display: grid;
+      place-items: center;
+      color: #fff;
+    }
+    .brand-icon svg { width: 18px; height: 18px; }
+    .btn-back {
+      font-size: 13px;
+      font-weight: 700;
+      color: #b7ceee;
+      padding: 8px 14px;
+      border-radius: 8px;
+      border: 1px solid rgba(40, 85, 150, 0.5);
+      background: rgba(9, 27, 57, 0.7);
+    }
+    .btn-back:hover { color: #fff; text-decoration: none; background: rgba(16, 44, 88, 0.85); }
+
+    /* CONTENT */
+    .legal-content {
+      padding: 50px 0 80px;
+    }
+    .legal-header {
+      margin-bottom: 40px;
+      border-bottom: 1px solid rgba(38, 83, 148, 0.4);
+      padding-bottom: 24px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 12px;
+      border-radius: 20px;
+      background: rgba(0, 120, 245, 0.16);
+      border: 1px solid rgba(0, 140, 255, 0.4);
+      color: #2fb5ff;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-size: clamp(26px, 3.2vw, 38px);
+      font-weight: 850;
+      letter-spacing: -0.8px;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+    .date-meta {
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+
+    .legal-box {
+      background: var(--bg-card);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      padding: 36px 32px;
+      margin-bottom: 28px;
+      backdrop-filter: blur(10px);
+    }
+    .legal-box h2 {
+      font-size: 19px;
+      font-weight: 800;
+      color: #fff;
+      margin: 30px 0 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .legal-box h2:first-of-type { margin-top: 0; }
+    .legal-box h3 {
+      font-size: 15.5px;
+      font-weight: 750;
+      color: #d8e8fc;
+      margin: 18px 0 10px;
+    }
+    .legal-box p {
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+    .legal-box ul {
+      margin: 0 0 20px 24px;
+      color: var(--text-muted);
+    }
+    .legal-box li {
+      margin-bottom: 8px;
+    }
+
+    .warning-card {
+      background: rgba(245, 158, 11, 0.1);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 20px 0;
+    }
+    .warning-card strong {
+      color: var(--amber-warn);
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .refund-card {
+      background: rgba(16, 214, 138, 0.1);
+      border: 1px solid rgba(16, 214, 138, 0.35);
+      border-radius: 12px;
+      padding: 20px 22px;
+      margin: 20px 0;
+    }
+    .refund-card strong {
+      color: var(--emerald-green);
+      display: block;
+      margin-bottom: 6px;
+      font-size: 16px;
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid rgba(38, 83, 148, 0.4);
+      background: #020816;
+      padding: 28px 0;
+      font-size: 12px;
+      color: var(--text-dim);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="wrap header-nav">
+      <a class="brand" href="index.html">
+        <span class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><rect x="4" y="10" width="16" height="11" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg>
+        </span>
+        PDF Unlocker Desktop
+      </a>
+
+      <a class="btn-back" href="index.html">← Retour à l'accueil</a>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="wrap legal-content">
+    <div class="legal-header">
+      <div class="badge">● Cadre Contractuel & Utilisation Éthique</div>
+      <h1>Conditions Générales & Politique de Remboursement</h1>
+      <div class="date-meta">Dernière mise à jour : 1er Novembre 2026 • Version 1.0.0</div>
+    </div>
+
+    <div class="legal-box">
+      <h2>1. Objet & Acceptation des Conditions</h2>
+      <p>
+        Les présentes Conditions Générales régissent l'accès, le téléchargement, l'utilisation de l'application logicielle de bureau <strong>PDF Unlocker Desktop</strong> (Windows 10/11 64 bits) ainsi que l'acquisition de clés de licence d'activation commerciale (éditions Pro et Business).
+      </p>
+      <p>
+        En téléchargeant, installant ou utilisant le logiciel, vous reconnaissez avoir lu, compris et accepté sans réserve les présentes conditions. Si vous n'acceptez pas ces termes, vous devez cesser immédiatement toute utilisation du logiciel.
+      </p>
+
+      <h2>2. Utilisation Légitime & Responsabilité Stricte de l'Utilisateur</h2>
+      <div class="warning-card">
+        <strong>⚠️ Avertissement Légal Impératif (Section 20.2 du PRD) :</strong>
+        PDF Unlocker Desktop est exclusivement conçu comme un utilitaire d'assistance pour permettre aux utilisateurs de <strong>retrouver l'accès à leurs propres documents PDF légitimes</strong> (ex. fiches de paie, déclarations fiscales, factures ou relevés bancaires émis avec mot de passe personnel) ou à des documents pour lesquels ils disposent d'une <strong>autorisation formelle, écrite et expresse</strong> de traitement.
+      </div>
+
+      <p>L'utilisateur s'engage formellement à :</p>
+      <ul>
+        <li>Ne jamais utiliser le logiciel pour tenter d'accéder sans droit à des documents appartenant à des tiers sans autorisation préalable.</li>
+        <li>Respecter les lois en vigueur relatives à la protection des systèmes informatiques et à la confidentialité des correspondances.</li>
+        <li>Reconnaître que l'éditeur de PDF Unlocker ne saurait être tenu pour responsable d'un quelconque usage illicite, frauduleux ou détourné réalisé au moyen du logiciel.</li>
+      </ul>
+
+      <h2>3. Caractéristiques Techniques & Absence de Garantie Universelle (FR-13)</h2>
+      <p>
+        Conformément aux exigences de transparence du PRD (FR-13) :
+      </p>
+      <ul>
+        <li><strong>Obligation de moyens :</strong> L'éditeur met à disposition un logiciel rigoureusement testé, stable, 100 % hors-ligne et conforme aux spécifications techniques annoncées (diagnostic d'état, validation stricte des codes à 6 chiffres avec conservation des zéros initiaux comme <code>000452</code>, motifs bornés <code>?</code> jusqu'à 100 000 combinaisons et déchiffrement vérifié post-écriture).</li>
+        <li><strong>Limites cryptographiques naturelles :</strong> Aucun outil informatique ne peut garantir le déchiffrement d'un mot de passe long, aléatoire ou complexe chiffré sous la norme <strong>AES-256</strong> en raison des propriétés mathématiques de la cryptographie moderne. L'échec d'une recherche par liste ou par motif non adapté ne constitue pas une défaillance ou un défaut du logiciel.</li>
+        <li><strong>Sécurité des originaux :</strong> L'application applique une politique stricte d'interdiction d'écrasement de la source (FR-05) et crée une copie autonome sans altérer le document d'origine.</li>
+      </ul>
+
+      <h2>4. Formules de Licence & Propriété Intellectuelle</h2>
+      <p>
+        Le logiciel et son code binaire demeurent la propriété exclusive de l'éditeur. Les licences confèrent un droit d'utilisation personnel et non exclusif :
+      </p>
+      <ul>
+        <li><strong>Édition Free (Gratuite) :</strong> Vérification manuelle illimitée de mots de passe, diagnostic technique anonymisé, essai de recherche ciblée borné à 50 candidats.</li>
+        <li><strong>Édition Pro (Perpétuelle - Monoposte) :</strong> Débloque la recherche ciblée illimitée, les motifs avec jusqu'à 5 jokers <code>?</code> (100k combinaisons) et l'import de dictionnaires <code>.txt</code>. La clé est nominative et utilisable sur 1 poste personnel.</li>
+        <li><strong>Édition Business (Perpétuelle - Multi-postes) :</strong> Inclut toutes les fonctionnalités Pro ainsi que le traitement par lots illimité pour jusqu'à 5 postes au sein d'une même organisation, avec support prioritaire.</li>
+      </ul>
+
+      <h2>5. Politique de Remboursement (Garantie Satisfait ou Remboursé sous 14 jours)</h2>
+      <div class="refund-card">
+        <strong>🛡️ Garantie de Remboursement de 14 Jours :</strong>
+        Nous offrons un remboursement intégral dans un délai de <strong>14 jours calendaires</strong> suivant l'achat d'une clé de licence Pro ou Business en cas d'incompatibilité technique avérée avec votre système d'exploitation Windows 10/11 (64 bits) ou d'anomalie logicielle bloquante non résolue par notre support technique.
+      </div>
+
+      <p><strong>Conditions d'application du remboursement :</strong></p>
+      <ul>
+        <li><strong>Procédure technique :</strong> Pour bénéficier du remboursement en cas de dysfonctionnement technique, l'utilisateur doit transmettre au support technique un rapport de diagnostic anonymisé généré par le logiciel (<code>diagnostic_pdf_unlocker.json</code>) permettant d'identifier le problème.</li>
+        <li><strong>Cas d'exclusion :</strong> La version <em>Free</em> étant mise à disposition gratuitement pour tester l'ouverture de votre fichier et son profil de chiffrement en amont, le remboursement ne pourra pas être accordé si le logiciel fonctionne normalement mais que le mot de passe recherché était simplement absent de la liste ou du motif défini par l'utilisateur.</li>
+        <li><strong>Désactivation :</strong> En cas de remboursement accordé, la clé de licence concernée est désactivée et l'utilisateur s'engage à cesser d'utiliser les fonctionnalités commerciales correspondantes.</li>
+      </ul>
+
+      <h2>6. Droit Applicable & Contact</h2>
+      <p>
+        Les présentes conditions sont régies par le droit applicable aux prestations de services numériques et logiciels téléchargeables. En cas de réclamation ou litige, une solution amiable sera systématiquement recherchée en priorité.
+      </p>
+      <p>
+        Pour toute demande d'assistance, question contractuelle ou réclamation :<br>
+        📧 Support client : <a href="mailto:contact@pdfunlocker.com">contact@pdfunlocker.com</a>
+      </p>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <p>© 2026 PDF Unlocker Desktop • Traitement 100 % local sur Windows 10/11 (64 bits).</p>
+      <p style="margin-top:6px"><a href="index.html">Accueil</a> • <a href="terms.html">Conditions Générales & Remboursement</a> • <a href="privacy.html">Politique de Confidentialité</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
+

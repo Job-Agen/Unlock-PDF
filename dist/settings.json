@@ -1,0 +1,11 @@
+{
+  "num_threads": 4,
+  "play_sound": true,
+  "auto_decrypt_copy": false,
+  "enable_local_history": false,
+  "language": "fr",
+  "license_tier": "pro",
+  "license_key": "PDFU-PRO-581D-1977-DB3E",
+  "theme": "dark",
+  "batch_size": 64
+}

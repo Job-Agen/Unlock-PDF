@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#030e22">
+  <meta name="description" content="Politique de Confidentialité de PDF Unlocker Desktop — Traitement 100 % local, respect du RGPD, zéro télémétrie et protection stricte de vos données.">
+  <title>Politique de Confidentialité — PDF Unlocker Desktop</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #030e23;
+      --bg-card: rgba(8, 26, 56, 0.78);
+      --card-border: rgba(38, 83, 148, 0.5);
+      --primary-blue: #0078f2;
+      --cyan-glow: #00d2ff;
+      --emerald-green: #10d68a;
+      --text-white: #ffffff;
+      --text-muted: #b0c9ec;
+      --text-dim: #7390b8;
+      --radius-md: 14px;
+      --radius-lg: 18px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-white);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      line-height: 1.65;
+      min-height: 100vh;
+      background-image: 
+        radial-gradient(circle at 15% 10%, rgba(0, 120, 245, 0.15) 0%, transparent 45%),
+        radial-gradient(circle at 85% 20%, rgba(0, 210, 255, 0.1) 0%, transparent 40%),
+        linear-gradient(180deg, #030e23 0%, #06152e 100%);
+      background-attachment: fixed;
+    }
+
+    a { color: #0099ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { width: min(920px, calc(100% - 48px)); margin: auto; }
+
+    /* HEADER */
+    header {
+      height: 76px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(3, 14, 35, 0.88);
+      border-bottom: 1px solid rgba(40, 85, 150, 0.35);
+      backdrop-filter: blur(16px);
+    }
+    .header-nav {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 19px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .brand:hover { text-decoration: none; }
+    .brand-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #0099ff, #0062e0);
+      display: grid;
+      place-items: center;
+      color: #fff;
+    }
+    .brand-icon svg { width: 18px; height: 18px; }
+    .btn-back {
+      font-size: 13px;
+      font-weight: 700;
+      color: #b7ceee;
+      padding: 8px 14px;
+      border-radius: 8px;
+      border: 1px solid rgba(40, 85, 150, 0.5);
+      background: rgba(9, 27, 57, 0.7);
+    }
+    .btn-back:hover { color: #fff; text-decoration: none; background: rgba(16, 44, 88, 0.85); }
+
+    /* CONTENT */
+    .legal-content {
+      padding: 50px 0 80px;
+    }
+    .legal-header {
+      margin-bottom: 40px;
+      border-bottom: 1px solid rgba(38, 83, 148, 0.4);
+      padding-bottom: 24px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 12px;
+      border-radius: 20px;
+      background: rgba(16, 214, 138, 0.12);
+      border: 1px solid rgba(16, 214, 138, 0.35);
+      color: var(--emerald-green);
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-size: clamp(28px, 3.4vw, 40px);
+      font-weight: 850;
+      letter-spacing: -0.8px;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+    .date-meta {
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+
+    .legal-box {
+      background: var(--bg-card);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      padding: 36px 32px;
+      margin-bottom: 28px;
+      backdrop-filter: blur(10px);
+    }
+    .legal-box h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin: 28px 0 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .legal-box h2:first-of-type { margin-top: 0; }
+    .legal-box h3 {
+      font-size: 16px;
+      font-weight: 750;
+      color: #d8e8fc;
+      margin: 20px 0 10px;
+    }
+    .legal-box p {
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+    .legal-box ul {
+      margin: 0 0 20px 24px;
+      color: var(--text-muted);
+    }
+    .legal-box li {
+      margin-bottom: 8px;
+    }
+
+    .highlight-card {
+      background: rgba(0, 120, 245, 0.12);
+      border: 1px solid rgba(0, 140, 255, 0.4);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 20px 0;
+    }
+    .highlight-card strong {
+      color: #fff;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid rgba(38, 83, 148, 0.4);
+      background: #020816;
+      padding: 28px 0;
+      font-size: 12px;
+      color: var(--text-dim);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="wrap header-nav">
+      <a class="brand" href="index.html">
+        <span class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><rect x="4" y="10" width="16" height="11" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg>
+        </span>
+        PDF Unlocker Desktop
+      </a>
+
+      <a class="btn-back" href="index.html">← Retour à l'accueil</a>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="wrap legal-content">
+    <div class="legal-header">
+      <div class="badge">● Respect absolu de la vie privée & RGPD</div>
+      <h1>Politique de Confidentialité</h1>
+      <div class="date-meta">Dernière mise à jour : 1er Novembre 2026 • Version 1.0.0</div>
+    </div>
+
+    <div class="legal-box">
+      <h2>1. Engagement Fondamental : Traitement 100 % Local</h2>
+      <p>
+        La protection de votre vie privée et la confidentialité de vos documents professionnels ou personnels constituent le pilier central de la conception de <strong>PDF Unlocker Desktop</strong>.
+      </p>
+
+      <div class="highlight-card">
+        <strong>🔒 Zéro téléversement cloud, zéro analyse distante :</strong>
+        Aucun document PDF, aucune page, aucune métadonnée et aucun mot de passe n'est jamais transmis, transféré ou stocké sur un serveur distant ou dans le cloud. L'intégralité des opérations cryptographiques est exécutée <strong>strictement et exclusivement dans la mémoire vive (RAM) de votre propre ordinateur Windows</strong>.
+      </div>
+
+      <h2>2. Données Traitées par le Logiciel</h2>
+
+      <h3>A. Vos documents PDF et mots de passe</h3>
+      <ul>
+        <li><strong>Documents traités :</strong> Le logiciel lit localement le fichier PDF désigné par l'utilisateur pour vérifier son intégrité et analyser son conteneur cryptographique. Le document ne quitte jamais votre espace de travail.</li>
+        <li><strong>Mots de passe et candidats :</strong> Conformément aux exigences de sécurité strictes du PRD (FR-10 et FR-15), <strong>aucun mot de passe valide, aucun mot de passe erroné et aucun candidat testé n'est jamais écrit en clair sur le disque</strong> ni dans les journaux d'application.</li>
+        <li><strong>Fichier original :</strong> Le fichier original d'entrée n'est jamais modifié ou écrasé. Seule une copie déchiffrée autonome distincte (ex. <code>document_sans_mot_de_passe.pdf</code>) est produite à l'emplacement explicitement choisi par l'utilisateur.</li>
+      </ul>
+
+      <h3>B. Historique local des opérations (FR-11)</h3>
+      <p>
+        Pour garantir une confidentialité maximale dès le premier lancement :
+      </p>
+      <ul>
+        <li>L'historique local est <strong>désactivé par défaut</strong>.</li>
+        <li>Si vous choisissez de l'activer dans les <em>Paramètres</em>, les entrées enregistrées localement dans le fichier JSON d'historique ne contiennent <strong>jamais</strong> de mot de passe, ni les chemins d'accès personnels complets (seul le nom de base du fichier et la durée anonymisée sont consignés).</li>
+        <li>Vous pouvez vider l'historique ou le désactiver à tout moment en un clic.</li>
+      </ul>
+
+      <h3>C. Rapports de diagnostic technique de support (FR-15)</h3>
+      <p>
+        En cas de difficulté technique sur un document spécifique, le logiciel permet de générer un rapport de diagnostic (<code>diagnostic_pdf_unlocker.json</code>).
+      </p>
+      <p>
+        Ce rapport fait l'objet d'une <strong>expurgation cryptographique totale</strong> :
+      </p>
+      <ul>
+        <li>Les chemins d'accès de votre machine sont anonymisés.</li>
+        <li>Le nom du fichier et son contenu sont masqués.</li>
+        <li>Aucun secret ni mot de passe candidat n'y figure.</li>
+        <li>Seules la version de l'OS, la méthode de chiffrement (ex. AES-256) et la taille approchée sont transmises pour l'assistance technique.</li>
+      </ul>
+
+      <h2>3. Données Liées aux Licences & Achats</h2>
+      <p>
+        PDF Unlocker utilise un système d'activation <strong>100 % hors-ligne (Offline Licensing)</strong> fondé sur des signatures cryptographiques HMAC-SHA256 :
+      </p>
+      <ul>
+        <li><strong>Validation locale :</strong> L'activation d'une licence Pro ou Business s'effectue directement au sein de votre exécutable Windows sans aucune communication réseau avec un serveur de licences.</li>
+        <li><strong>Paiement et facturation :</strong> Lorsque vous achetez une licence commerciale, la transaction financière est opérée directement par notre prestataire de paiement agréé (ex. Lemon Squeezy / Paddle / Stripe). L'éditeur de PDF Unlocker ne collecte et ne stocke <strong>aucun identifiant bancaire ni numéro de carte de crédit</strong>.</li>
+      </ul>
+
+      <h2>4. Cookies & Site Web</h2>
+      <p>
+        Le site vitrine officiel de PDF Unlocker est conçu de manière sobre et respectueuse :
+      </p>
+      <ul>
+        <li>Aucun cookie tiers intrusif à des fins de ciblage publicitaire n'est déposé.</li>
+        <li>Le vérificateur d'intégrité SHA-256 intégré au site fonctionne via l'API Web Crypto directement dans votre navigateur : aucun fichier déposé dans la zone de contrôle n'est envoyé sur Internet.</li>
+      </ul>
+
+      <h2>5. Vos Droits (Conformité RGPD)</h2>
+      <p>
+        Conformément au Règlement Général sur la Protection des Données (RGPD) et aux lois applicables, vous disposez d'un droit d'accès, de rectification et d'effacement complet de toute donnée vous concernant (par exemple l'adresse e-mail fournie lors de l'achat de licence).
+      </p>
+      <p>
+        Pour exercer ces droits ou pour toute question relative à la confidentialité :<br>
+        📧 Contact : <a href="mailto:contact@pdfunlocker.com">contact@pdfunlocker.com</a>
+      </p>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <p>© 2026 PDF Unlocker Desktop • Traitement 100 % local sur Windows 10/11 (64 bits).</p>
+      <p style="margin-top:6px"><a href="index.html">Accueil</a> • <a href="terms.html">Conditions Générales & Remboursement</a> • <a href="privacy.html">Politique de Confidentialité</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
